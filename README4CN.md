@@ -11,7 +11,6 @@ After Docker is installed, launch a Docker container with the TensorFlow binary 
 ##Actual behavior
 
 >$ docker run -it -p 8888:8888 gcr.io/tensorflow/tensorflow
-Information
 
 ##GET THE ERRORS:
 
@@ -28,6 +27,7 @@ Request timeout for icmp_seq 0
 Request timeout for icmp_seq 1
 Request timeout for icmp_seq 2
 Request timeout for icmp_seq 3
+
 ------------------------------------------------------------------------------------------------------------------------------------
 #TO DO
 
@@ -37,10 +37,11 @@ Request timeout for icmp_seq 3
 docker run -d -p 8888:8888 tensorflow/tensorflow
 Unable to find image 'tensorflow/tensorflow:latest' locally
 latest: Pulling from tensorflow/tensorflow
+
 862a3e9af0ae: Pull complete 
 ...
 e26c94fb0976: Pull complete 
 
 Digest: sha256:XXXX
-Status: Downloaded newer image for tensorflow/tensorflow:latest
-XXXXXX
+
+Status: Downloaded newer image for tensorflow/tensorflow:latest XXXXXX
